@@ -1,0 +1,29 @@
+.nav-container {
+  position: relative;
+  width: 100%;
+  height: 85px;
+}
+
+.nav-bg {
+  width: 100%;
+  height: 100%;
+}
+
+.center-btn {
+  position: absolute;
+  top: -30px; /* 数值越大，按钮离凹槽越远 */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  background: #ffcc00;
+  color: #fff;
+  font-size: 32px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+  border: 6px solid #fff; /* 给按钮和凹槽之间留出视觉间隔 */
+}
